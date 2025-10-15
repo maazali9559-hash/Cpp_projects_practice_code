@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a,b,c;
+    int f;
     cout<<"enter value:"<<endl;
-    cin>>a>>b>>c;
-    cout<<"c*c:"<<a*a+b*b;
+    cin>>f;
+    float c = (f-32)*5/9;
+    cout<<"Cel:"<<c;
     return 0;
-
 }

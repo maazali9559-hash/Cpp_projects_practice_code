@@ -26,4 +26,5 @@ int main(){
         cout<<"INVALID OPT"<<endl;
         break;
     }
+        return 0;
 }

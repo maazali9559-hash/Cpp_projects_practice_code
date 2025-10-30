@@ -42,6 +42,15 @@ int main(){
     }
     else{
         cout<<"Within budget"<<endl;
+    } int sg;
+    cout<<"Enter your saving goal :"<<endl;
+    cin>>sg;
+if (budget>=sg)
+    {
+        cout<<"Saving goal achieved!"<<endl;
+    }
+    else {
+        cout<<(budget/te)*100<<" percent is saved from your goal"<<endl;
     }
 
     int pm;
@@ -64,17 +73,21 @@ int main(){
         break;
     case 4:
         cout<<"EASYPAISA"<<endl;
+        break;
 
     default:
-        cout<<
+        cout<<"INVALID PAYMENT METHOD"<<endl;
         break;
     }
+    if(inc>50000 && te<30000){
+        cout<<"You earned 100 reward points!"<<endl;
+    }
+    else if(inc>30000){
+        cout<<"You earned 50 points!"<<endl;
+    }
+    else {
+        cout<<"You earned 10 points. Keep saving!"<<endl;
+    }
+    return 0;
            
-   
-    
-    
-
-    
-
-
 }

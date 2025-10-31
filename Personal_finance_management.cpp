@@ -5,7 +5,7 @@ int main(){
     cout<<"Enter Your Name :"<<endl;
     cin>>name;
     cout<<"Welcome Sir :"<<endl;
-    cout<<"This Program Is for your Financial Condition"<<endl;
+    cout<<"This Program Is For Your Financial Condition"<<endl;
     
     float inc;
     cout<<"Enter your Income :"<<endl;
@@ -42,7 +42,8 @@ int main(){
     }
     else{
         cout<<"Within budget"<<endl;
-    } int sg;
+    } 
+    int sg;
     cout<<"Enter your saving goal :"<<endl;
     cin>>sg;
 if (budget>=sg)
@@ -88,6 +89,10 @@ if (budget>=sg)
     else {
         cout<<"You earned 10 points. Keep saving!"<<endl;
     }
-    return 0;
-           
+    cout<<"Your income : "<<inc<<endl;
+    cout<<"Your total expenses : "<<te<<endl;
+    cout<<"Your balance : "<<budget<<endl;
+    cout<<"Your budget limit : "<<bl<<endl;
+    cout<<"Your saving goal : "<<sg<<endl;
+    return 0;      
 }
